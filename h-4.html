@@ -1,0 +1,422 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/h-4.css">
+    <link rel="stylesheet" href="./aos/dist/aos.css">
+    <script src="./aos/dist/aos.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./javascript/app.js"></script>
+    <title>Homework 4</title>
+</head>
+
+<body>
+
+    <!-- =======================Navbar ====================-->
+    <div class="container-fluid" style="background-color: #585855cb; position: fixed; z-index: 9999;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand " style="font-size: 40px; color: #697278;" href="#"><img src="./css/img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+                <div class="collapse navbar-collapse " style="justify-content: flex-end; display: flex;" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color: #1a1d1b;" href="#">HOME <span class="sr-only">(current)</span></a>
+                            <div class="nav-scale">
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT US</a>
+                            <div class="nav-scale"></div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">SERVICES</a>
+                            <div class="nav-scale"></div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                            <div class="nav-scale"></div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">TEAM</a>
+                            <div class="nav-scale"></div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#navbarDropdown" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                DROP DOWN
+              </a>
+                            <div class="nav-scale"></div>
+                            <div class="dropdown-menu" id="drop" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" id="drop1" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT US</a>
+                            <div class="nav-scale"></div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ==================First Page==================-->
+    <div class="firstimg" id="home">
+        <div class="container-fluid clon" data-aos="fade-right" data-aos-duration="1000">
+            <div class="container ">
+                <div class="welcome-text text-center" style="padding-top: 250px;  padding-bottom: 200px; color: rgb(255, 255, 255); z-index: 9999; font-weight: 900;">
+                    <h1><b>WELCOME TO REGNA</b></h1>
+                    <h4 class=" text-light text-center">We are team of talanted designers making websites with Bootstrap</h4>
+                    <button class="btn mt-5 btnone">
+          GET STARTED
+        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==================About section================ -->
+    <div class="container-fluid">
+        <div class="container pt-5">
+            <div class="container pt-5" id="about">
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                        <h2><b>
+          Few Words About Us</b>
+                        </h2>
+                        <p class="text-dark pt-3 pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <div class="row ">
+                            <div class="col-md-2 mb-3 ">
+                                <i class="fas fa-shopping-bag fa-2x p-3 about-icon"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h6>EIUSMOD TEMPOR</h6>
+                                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                            <div class="col-md-2 mb-3">
+                                <i class="fas fa-image fa-2x p-3 about-icon"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h6>MAGNI DOLORES</h6>
+                                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                            <div class="col-md-2 ">
+                                <i class="fas fa-chart-bar fa-2x p-3 about-icon"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h6>DOLOR SITEMA</h6>
+                                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 about-img" data-aos="fade-up">
+                        <img src="./css/img/about-img.jpg" width="122%" alt="About Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=============== Facts section==================== -->
+    <div class="container-fluid pt-5 facts-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="container pt-4 facts-container">
+            <div class="row facts-row ">
+                <div class="facts mt-4">
+                    <h1><b>FACTS</b></h1>
+                    <p class="text-dark">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                </div>
+            </div>
+            <div class="row facts-row2 pb-5">
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-toggle="counter-up">232</span>
+                    <p class="text-dark">Clients.</p>
+                </div>
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-toggle="counter-up">521</span>
+                    <p class="text-dark">Projects</p>
+                </div>
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-toggle="counter-up">1,463</span>
+                    <p class="text-dark">Hours Of Support </p>
+                </div>
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-toggle="conter-up">15</span>
+                    <p class="text-dark">Hard Workers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============SERVICES SECTION=========== -->
+    <div class="container mt-5" id="services">
+        <div class="services-header text-center mb-5">
+            <h1 class=""><b>
+      SERVICES
+    </b>
+            </h1>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+        <div class="row pb-5" data-aos="fade-up" data-aos-duration="1500">
+            <div class="col-md-4">
+                <div class="card text-center icon-card" style="width: 20rem;">
+                    <div class="card-body">
+                        <i class="fas fa-desktop fa-2x services-icon"></i>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center icon-card" style="width: 20rem;">
+                    <div class="card-body">
+                        <i class="fas fa-chart-bar fa-2x services-icon"></i>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center icon-card" style="width: 20rem;">
+                    <div class="card-body">
+                        <i class="fab fa-telegram-plane fa-2x services-icon"></i>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2 mb-5" data-aos="fade-up" data-aos-duration="2000">
+            <div class="col-md-4">
+                <div class="card text-center icon-card" style="width: 20rem;">
+                    <div class="card-body">
+                        <i class="fas fa-image fa-2x services-icon"></i>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pb-5">
+                <div class="card text-center icon-card" style="width: 20rem;">
+                    <div class="card-body">
+                        <i class="fas fa-road fa-2x services-icon"></i>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center icon-card" style="width: 20rem;">
+                    <div class="card-body">
+                        <i class="fas fa-shopping-bag fa-2x services-icon"></i>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============Call to action=============== -->
+    <div class="container-fluid second-img pb-5">
+        <div class="clon-second">
+            <div class="container call">
+                <div class="row" style="z-index: 9999;">
+                    <div class="col-md-9 call-action">
+                        <h3 class=" pt-5 pb-4">Call To Action</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse ci llum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid atat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div class="col-md-3 call-action-btn">
+                        <button class="btn btn-primary btn-call">
+       <b> CALL TO ACTION</b>
+      </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- ===============PORTFOLIO==================== -->
+    <div class="container-fluid portfolio-fluid pb-5 pt-5" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container" id="portfolio">
+            <div class="portfolio-section text-center mb-5">
+                <h1>PORTFOLIO</h1>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 portfolio">
+                    <img src="./css/img/portfolio/portfolio-1.jpg" width="100%" alt="Portfolio rasm">
+                </div>
+                <div class="col-md-4 portfolio">
+                    <img src="./css/img/portfolio/portfolio-2.jpg" width="100%" alt="Portfolio rasm">
+                </div>
+                <div class="col-md-4 portfolio">
+                    <img src="./css/img/portfolio/portfolio-3.jpg" width="100%" alt="Portfolio rasm">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 portfolio">
+                    <img src="./css/img/portfolio/portfolio-4.jpg" width="100%" alt="Portfolio rasm">
+                </div>
+                <div class="col-md-4 portfolio">
+                    <img src="./css/img/portfolio/portfolio-5.jpg" width="100%" alt="Portfolio rasm">
+                </div>
+                <div class="col-md-4 portfolio">
+                    <img src="./css/img/portfolio/portfolio-6.jpg" width="100%" alt=" Pportfolio rsm">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 portfolio">
+                    <img src="./css/img/portfolio/portfolio-7.jpg" width="100%" alt="Portflio rasm">
+                </div>
+                <div class="col-md-4 portfolio">
+                    <img src="./css/img/portfolio/portfolio-8.jpg" width="100%" alt="Portfolio rasm">
+                </div>
+                <div class="col-md-4 portfolio">
+                    <img src="./css/img/portfolio/portfolio-9.jpg" width="100%" alt="Portfolio rasm">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============TEAM================ -->
+    <div class="container-fluid" id="team" data-aos="fade-up" data-aos-duration="2000" data>
+        <div class="container">
+            <div class="team-section text-center pt-5 pb-5">
+                <h1>TEAM</h1>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img src="./css/img/team-1.jpg" width="100%" alt="">
+                    <h5 class=" mt-2">Walter White</h5>
+                    <p>Chief Executive Officer</p>
+
+                    <a href=""><i class="fab fa-twitter team-icon text-dark"></i></a>
+                    <a href=""><i class="fab fa-facebook-f team-icon text-dark pl-1"></i></a>
+                    <a href=""><i class="fab fa-google-plus team-icon text-dark pl-1"></i></a>
+                    <a href=""><i class="fab fa-linkedin  team-icon text-dark pl-1"></i></a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./css/img/team-2.jpg" width="100%" alt="">
+                    <h5 class=" mt-2">Sarah Jhinson</h5>
+                    <p>Product Manager</p>
+
+                    <a href=""><i class="fab fa-twitter team-icon text-dark"></i></a>
+                    <a href=""><i class="fab fa-facebook-f team-icon text-dark pl-1"></i></a>
+                    <a href=""><i class="fab fa-google-plus team-icon text-dark pl-1"></i></a>
+                    <a href=""><i class="fab fa-linkedin  team-icon text-dark pl-1"></i></a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./css/img/team-3.jpg" width="100%" alt="">
+                    <h5 class=" mt-2">William Anderson</h5>
+                    <p>CTO</p>
+
+                    <a href=""><i class="fab fa-twitter team-icon text-dark"></i></a>
+                    <a href=""><i class="fab fa-facebook-f team-icon text-dark pl-1"></i></a>
+                    <a href=""><i class="fab fa-google-plus team-icon text-dark pl-1"></i></a>
+                    <a href=""><i class="fab fa-linkedin  team-icon text-dark pl-1"></i></a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./css/img/team-4.jpg" width="100%" alt="">
+                    <h5 class=" mt-2">Amanda Jepson</h5>
+                    <p>Accountant</p>
+
+                    <a href=""><i class="fab fa-twitter team-icon text-dark"></i></a>
+                    <a href=""><i class="fab fa-facebook-f team-icon text-dark pl-1"></i></a>
+                    <a href=""><i class="fab fa-google-plus team-icon text-dark pl-1"></i></a>
+                    <a href=""><i class="fab fa-linkedin  team-icon text-dark pl-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- =============CONTACT SECTION================= -->
+    <div class="container-fluid contact-fluid" id="contact">
+        <div class="contact-section text-center pt-5 pb-5">
+            <h1>CONTACT</h1>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5995.547940726826!2d69.19230940000001!3d41.292023500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8bd5965303e7%3A0xdb50c1237e5d5d09!2z0JzQuNC60YDQvtGN0LvQtdC60YLRgNC-0L3QuNC60LA!5e0!3m2!1sru!2s!4v1608224349776!5m2!1sru!2s"
+            height="400" width="100%" title="Iframe Example"></iframe>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="row icons-row">
+                        <i class="fas fa-map-marker-alt fa-3x contact-icon"></i>
+                        <p class="pl-4">Integro B block
+                            <br> Tashkent.</p>
+                    </div>
+                    <div class="row">
+
+                        <i class="far fa-envelope fa-3x contact-icon"></i>
+                        <p class="pl-3">developerdiyorbek@gmail.com
+                    </div>
+                    <div class="row ">
+                        <i class="fas fa-phone-alt fa-3x pt-2 contact-icon"></i>
+                        <p class="pl-3 pt-3">+998 908062004</p>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="social-links">
+                            <a href=""><i class="fab fa-twitter  pl-2 messengers"></i></a>
+                            <a href=""><i class="fab fa-facebook-f  messengers pl-3"></i></a>
+                            <a href=""> <i class="fab fa-instagram messengers pl-3"></i></a>
+                            <a href=""><i class="fab fa-google-plus messengers pl-3"></i></a>
+                            <a href=""> <i class="fab fa-linkedin messengers pl-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pb-4 pt-3">
+                    <form action="">
+                        <input type="text" placeholder="Your name" required style="width: 400px;">
+                    </form>
+                    <form action="" class="mt-4">
+                        <input type="text" placeholder="Your Email" required style="width: 400px;">
+                    </form>
+                    <form action="">
+                        <input type="text" class="mt-4" placeholder="Subject " required style="width: 400px;">
+                    </form>
+                    <form action="" class="pt-4">
+                        <textarea name="message" id="#" cols="55" rows="5"></textarea>
+                    </form>
+                    <button type="submit" class="btn btn-dark text-light mt-2">
+              SEND
+            </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============FOOTERCHA :)============== -->
+    <div class="container-fluid p-5 footer-fluid">
+        <div class="container">
+            <h4 class="text-center text-light">
+                © Copyright Diyorbek. All Rights Reserved
+            </h4>
+            <p class="text-center text-light">Designed by <a href="https://softplus.uz">SOFT+</a></p>
+        </div>
+        <div class="up-icon float-right bg- p-2">
+            <a href="#home"><i class="fas fa-arrow-up text-light"></i></a>
+        </div>
+    </div>
+</body>
+<script src="./aos/dist/aos.js"></script>
+<script src="./bootstrap/js/bootstrap.js"></script>
+<script src="./javascript/app.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
